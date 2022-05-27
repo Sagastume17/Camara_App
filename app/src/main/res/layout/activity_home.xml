@@ -43,8 +43,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="408dp"
+        android:layout_height="372dp"
         android:layout_marginBottom="41dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/button12"
@@ -84,23 +84,17 @@
             android:onClick="accesorios"
             android:text="Accerorios Camaras" />
 
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="match_parent"
-            android:layout_height="69dp"
-            android:backgroundTint="#03A9F4"
-            android:onClick="activity_cotizacion"
-            android:text="Realizar Cotizacion" />
+
     </LinearLayout>
 
     <Button
         android:id="@+id/button12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="51dp"
+        android:layout_marginEnd="52dp"
         android:layout_marginBottom="41dp"
         android:backgroundTint="#F44336"
-        android:onClick="activity_main"
+        android:onClick="salir"
         android:text="Salir"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

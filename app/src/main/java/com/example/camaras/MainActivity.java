@@ -1,8 +1,12 @@
 package com.example.camaras;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
     EditText username, password, repassword;
     Button btnIngresar, btnregistro;
     DBHelper myDB;
+   // Button llamada;
+    Button mensaje;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +34,15 @@ public class MainActivity extends AppCompatActivity {
         btnIngresar = (Button) findViewById(R.id.btnIngresar);
 
         myDB = new DBHelper(this);
+
+        mensaje = (Button) findViewById(R.id.btn2);
+        mensaje.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent  mensaje = new Intent(MainActivity.this,CotizacionActivity.class);
+                startActivity(mensaje);
+            }
+        });
 
         btnregistro.setOnClickListener(new View.OnClickListener() {
             @Override

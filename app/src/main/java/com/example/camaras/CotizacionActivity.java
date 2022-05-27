@@ -1,28 +1,35 @@
 package com.example.camaras;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.telephony.SmsManager;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
+public class CotizacionActivity extends AppCompatActivity {
 
-public class mensaje extends AppCompatActivity {
     EditText etMsj;
     TextView etcel;
+    Button llamada;
     Button btnEnviar, btnwhats;
-    String numero = "50259014641";
+    String numero = "50251810896";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cotizacion);
-        // codigo
-        etMsj = findViewById(R.id.editTextTextPersonName);
-        btnEnviar = findViewById(R.id.btnmsj);
+
+        etMsj = findViewById(R.id.informacion);
+        btnEnviar = findViewById(R.id.btnwhats);
         btnwhats = findViewById(R.id.btnwhats);
         etcel = findViewById(R.id.num);
 
@@ -33,6 +40,17 @@ public class mensaje extends AppCompatActivity {
             }
         });
 
+        llamada = (Button) findViewById(R.id.button3);
+        llamada.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent  i = new Intent(Intent.ACTION_CALL, Uri.parse("tel:50251810896"));
+                if(ActivityCompat.checkSelfPermission(CotizacionActivity.this, Manifest.permission.CALL_PHONE)!=
+                        PackageManager.PERMISSION_GRANTED )
+                    return;
+                startActivity(i);
+            }
+        });
 
         btnwhats.setOnClickListener(new View.OnClickListener() {
             @Override

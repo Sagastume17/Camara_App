@@ -49,4 +49,8 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
+    public void regresar(View view) {
+        setContentView(R.layout.activity_main);
+    }
 }
+
