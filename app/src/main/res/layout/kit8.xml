@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2196F3"
+        android:backgroundTint="#2196F3"
+        android:padding="1dp"
+        android:text="kIT DE 8 CAMARAS"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+    <TextView
+        android:id="@+id/nombre_curso2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FDF9F9"
+        android:padding="3dp"
+        android:textSize="10dp"
+        android:text="kIT DE 6 CAMARAS TIPO DOMO Y 2 TIPO BALA Q 3,500.00"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imagen_curso1"
+        android:layout_width="220dp"
+        android:layout_height="127dp"
+        android:foreground="@drawable/kit_cctv_de_8_camaras_hikvision"
+        android:padding="8dp"
+        tools:ignore="DuplicateIds" />
+
+
+    <TextView
+        android:id="@+id/nombre_curso3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FDF9F9"
+        android:padding="10dp"
+        android:textSize="10dp"
+        android:text="kIT DE 4 CAMARAS 2 DOMO Y 4 TIPO BALA Q 3,850.00"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imagen_curso3"
+        android:layout_width="218dp"
+        android:layout_height="110dp"
+        android:foreground="@drawable/logo_2"
+        android:padding="8dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/nombre_curso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FDF9F9"
+        android:padding="10dp"
+        android:textSize="10dp"
+        android:text="kIT DE 8 CAMARAS TIPO BALA Q 3,750.00"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imagen_curso"
+        android:layout_width="218dp"
+        android:layout_height="93dp"
+        android:foreground="@drawable/_1pstkwuxbs__ac_sy355_"
+        android:padding="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/nombre_curso.00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FDF9F9"
+        android:padding="2dp"
+        android:textSize="10dp"
+        android:text="kIT DE 8 CAMARAS FULL COLOR HD Q 7,850.00 DE 2 MPX"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nombre_curso.0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FDF9F9"
+        android:padding="2dp"
+        android:textSize="10dp"
+        android:text="kIT DE 8 CAMARAS FULL COLOR HD Q 8,850.00 DE 5 MPX"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nombre_curso.01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FDF9F9"
+        android:padding="2dp"
+        android:textSize="10dp"
+        android:text="kIT DE 8 CAMARAS FULL COLOR HD Q 10,450.00 DE 8 MPX"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imagen_curso.01"
+        android:layout_width="218dp"
+        android:layout_height="103dp"
+        android:foreground="@drawable/_561cc10daff735d0e0b338e3548f06d_xl"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="menu"
+        android:backgroundTint="#F44336"
+        android:text="Regresar" />
+
+</LinearLayout>

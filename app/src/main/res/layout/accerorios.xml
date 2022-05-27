@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2196F3"
+        android:backgroundTint="#2196F3"
+        android:padding="1dp"
+        android:text="ACCESORIOS PARA CAMARAS"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <TextView
+        android:id="@+id/nombre_curso2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FDF9F9"
+        android:padding="3dp"
+        android:textSize="10dp"
+        android:text="CABLE UPT CALIBRE 5 PARA EXTERIOR BOVINA 300 MTS        Q 950.00"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imagen_curso1"
+        android:layout_width="117dp"
+        android:layout_height="85dp"
+        android:foreground="@drawable/cable_utp_cat_6_para_exteriores_con_doble_chaqueta_pecmx_305_metros_71r616"
+        android:padding="1dp"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/nombre_curso0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FDF9F9"
+        android:padding="3dp"
+        android:textSize="10dp"
+        android:text="CABLE PONCHADO PARA INTERIORES 18.5 MTS Q 175.00"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imagen_curso1"
+        android:layout_width="119dp"
+        android:layout_height="66dp"
+        android:foreground="@drawable/_1oak2b_3pl__ac_sy355_"
+        android:padding="1dp"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/nombre_curso3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FDF9F9"
+        android:padding="1dp"
+        android:textSize="10dp"
+        android:text="CABLE DE CORRIENTE PARA 4 CAMARAS Q 175.00"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imagen_curso3"
+        android:layout_width="115dp"
+        android:layout_height="67dp"
+        android:foreground="@drawable/cable_de_alimentacion_para_4_camaras"
+        android:padding="8dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/nombre_curso.0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FDF9F9"
+        android:padding="1dp"
+        android:textSize="10dp"
+        android:text="CABLE DE CORRIENTE PARA 8 CAMARAS Q 225.00"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imagen_curso"
+        android:layout_width="117dp"
+        android:layout_height="74dp"
+        android:foreground="@drawable/cable_de_alimentacion_para_8_camaras_y_1_dvr"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/nombre_curso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FDF9F9"
+        android:padding="1dp"
+        android:textSize="10dp"
+        android:text="BALUES DE VIDEO Q 50.00"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imagen_curso2"
+        android:layout_width="117dp"
+        android:layout_height="56dp"
+        android:foreground="@drawable/video_balue"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/nombre_curso1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FDF9F9"
+        android:padding="1dp"
+        android:textSize="10dp"
+        android:text="BALUES DE CORRIENTE Q 25.00"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imagen_curso.0"
+        android:layout_width="117dp"
+        android:layout_height="56dp"
+        android:foreground="@drawable/balue_corriente"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/nombre_curso.1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FDF9F9"
+        android:padding="1dp"
+        android:textSize="10dp"
+        android:text="TRANSFORMADOR DE CORRIENTE 1.5 AMP Q 50.00"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imagen_curso.01"
+        android:layout_width="117dp"
+        android:layout_height="69dp"
+        android:foreground="@drawable/tranformador"
+        android:padding="8dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F44336"
+        android:onClick="menu"
+        android:text="Regresar" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
